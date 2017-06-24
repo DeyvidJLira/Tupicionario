@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.deyvidjlira.tupicionario.MainActivity">
+
+    <TextView
+        style="@style/CategoriaStyle"
+        android:background="@color/colorAnimalCategory"
+        android:onClick="callAnimalActivity"
+        android:text="@string/label_animal_category"/>
+
+    <TextView
+        style="@style/CategoriaStyle"
+        android:background="@color/colorFoodCategory"
+        android:text="@string/label_food_category"
+        android:onClick="callFoodActivity"/>
+
+    <TextView
+        style="@style/CategoriaStyle"
+        android:background="@color/colorPlantsCategory"
+        android:text="@string/label_plants_category"
+        android:onClick="callPlantsActivity"/>
+
+    <TextView
+        style="@style/CategoriaStyle"
+        android:background="@color/colorNativesCategory"
+        android:text="@string/label_natives_category"
+        android:onClick="callNativesActivity"/>
+
+</LinearLayout>
